@@ -27,12 +27,11 @@ Below are the technologies used in the Chatqu application:
 The Chatqu application uses the Clean Architecture design pattern to separate concerns and make the codebase more maintainable. The business logic is implemented using BLoCs (Business Logic Components), while GetIt is used for dependency injection.
 
 ## Installation
-To install Chatqu, please follow the steps below:
+Chatqu is available on the App Store and Google Play Store. To download and install the app, please search for "Chatqu" in the respective app store and follow the instructions. Alternatively, you can click the link below to go directly to the Google Play Store:
 
-1. Go to the App Store or Google Play Store and search for "Chatqu".
-2. Download and install the app.
-3. Once installed, open the app and create an account.
-4. Start chatting with your friends and family!
+[<img alt="PEKA on Playstore" width="200" src="https://github.com/nadiamrnt/peka/blob/master/Demo%20PEKA/google-play-badge.png" />](https://play.google.com/store/apps/details?id=com.jagoteori.chatqu)
+
+Once installed, open the app and create an account to start chatting with your friends and family!!
 
 ## Contributing
 If you would like to contribute to Chatqu, please fork the repository and submit a pull request. We welcome all contributions!
