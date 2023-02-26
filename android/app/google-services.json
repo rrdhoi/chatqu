@@ -7,42 +7,6 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:183054104237:android:4380e7ebd015e83ed93824",
-        "android_client_info": {
-          "package_name": "com.jagoteori.chatqu"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "183054104237-3la70tdigo0p4687bh6jgi4n45kbuqn3.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAG15KvlMmhm-ee5wNkykUgi0bSDWVTlTE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "183054104237-3la70tdigo0p4687bh6jgi4n45kbuqn3.apps.googleusercontent.com",
-              "client_type": 3
-            },
-            {
-              "client_id": "183054104237-o6mnadkrdq6brqi9oucvqlql7hubthuk.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.jagoteori.chatqu"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
         "mobilesdk_app_id": "1:183054104237:android:cd6a17fb77902febd93824",
         "android_client_info": {
           "package_name": "com.jagoteori.chatqu"
@@ -70,7 +34,7 @@
               "client_id": "183054104237-o6mnadkrdq6brqi9oucvqlql7hubthuk.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.jagoteori.chatqu"
+                "bundle_id": "com.example.chatqu"
               }
             }
           ]

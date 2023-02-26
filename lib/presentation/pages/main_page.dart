@@ -2,7 +2,6 @@ import 'package:chatqu/app/app.dart';
 import 'package:chatqu/presentation/pages/friends/friends_page.dart';
 import 'package:chatqu/presentation/pages/home/side_bar_navigation.dart';
 import 'package:chatqu/presentation/presentation.dart';
-import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
   static const String routeName = '/home-page';

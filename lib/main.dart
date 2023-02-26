@@ -1,15 +1,25 @@
+import 'dart:async';
+
 import 'package:chatqu/app/app.dart';
 import 'package:chatqu/app/di/injection.dart' as di;
 import 'package:chatqu/firebase_options.dart';
 import 'package:chatqu/presentation/presentation.dart';
 import 'package:chatqu/routes.dart';
-import 'package:flutter/material.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
+  runZonedGuarded<Future<void>>(
+    () async {
+      WidgetsFlutterBinding.ensureInitialized();
+      await Firebase.initializeApp(
+        options: DefaultFirebaseOptions.currentPlatform,
+      );
+      FlutterError.onError =
+          FirebaseCrashlytics.instance.recordFlutterFatalError;
+      di.init();
+      runApp(const MyApp());
+    },
+    (error, stack) =>
+        FirebaseCrashlytics.instance.recordError(error, stack, fatal: true),
   );
 
   /*if (kDebugMode) {
@@ -25,9 +35,6 @@ void main() async {
       print(e);
     }
   }*/
-
-  di.init();
-  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

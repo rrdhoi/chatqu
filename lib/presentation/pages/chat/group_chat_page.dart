@@ -4,7 +4,6 @@ import 'package:chatqu/domain/entities/chat_arguments.dart';
 import 'package:chatqu/presentation/presentation.dart';
 import 'package:chatqu/presentation/widgets/text_error_message.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 
 class GroupChatPage extends StatefulWidget {
   const GroupChatPage({Key? key}) : super(key: key);

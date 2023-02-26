@@ -3,7 +3,6 @@ import 'package:chatqu/domain/domain.dart';
 import 'package:chatqu/domain/entities/chat_arguments.dart';
 import 'package:chatqu/presentation/presentation.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter/material.dart';
 
 class PersonalChatPage extends StatefulWidget {
   const PersonalChatPage({Key? key}) : super(key: key);

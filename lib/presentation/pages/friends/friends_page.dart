@@ -6,7 +6,6 @@ import 'package:chatqu/presentation/widgets/card_row_item.dart';
 import 'package:chatqu/presentation/widgets/custom_alert_dialog.dart';
 import 'package:chatqu/presentation/widgets/header_screen.dart';
 import 'package:chatqu/presentation/widgets/text_error_message.dart';
-import 'package:flutter/material.dart';
 
 class FriendsPage extends StatefulWidget {
   const FriendsPage({required this.myUser, Key? key}) : super(key: key);

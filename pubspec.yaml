@@ -26,6 +26,7 @@ dependencies:
   sqflite: ^2.0.0+3
   intl: ^0.17.0
   chat_gpt_flutter: ^1.0.6
+  firebase_crashlytics: ^3.0.15
 
 dev_dependencies:
   flutter_test:
@@ -34,5 +35,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/icons/
-    - assets/images/
+  - assets/icons/
+  - assets/images/

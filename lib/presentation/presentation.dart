@@ -3,7 +3,6 @@ library presentation;
 export 'package:chatqu/presentation/bloc/chat/create_group_chat/create_group_chat_cubit.dart';
 export 'package:chatqu/presentation/bloc/chat/get_all_chat/get_all_chat_cubit.dart';
 export 'package:chatqu/presentation/bloc/chat/get_chat_messages/get_chat_messages_cubit.dart';
-export 'package:chatqu/presentation/bloc/chat/get_chat_messages/get_chat_messages_cubit.dart';
 export 'package:chatqu/presentation/bloc/chat/get_group_chat_messages/get_group_chat_messages_cubit.dart';
 export 'package:chatqu/presentation/bloc/chat/send_group_message/send_group_message_cubit.dart';
 export 'package:chatqu/presentation/bloc/chat/send_message/send_message_cubit.dart';
@@ -34,5 +33,7 @@ export 'package:chatqu/presentation/widgets/custom_navigator_button.dart';
 export 'package:chatqu/presentation/widgets/custom_snackbar.dart';
 export 'package:chatqu/presentation/widgets/custom_text_form_field.dart';
 export 'package:firebase_core/firebase_core.dart';
+export 'package:firebase_crashlytics/firebase_crashlytics.dart';
+export 'package:flutter/material.dart';
 // external
 export 'package:flutter_bloc/flutter_bloc.dart';

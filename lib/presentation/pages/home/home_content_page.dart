@@ -3,7 +3,6 @@ import 'package:chatqu/domain/domain.dart';
 import 'package:chatqu/domain/entities/chat_arguments.dart';
 import 'package:chatqu/presentation/presentation.dart';
 import 'package:chatqu/presentation/widgets/header_screen.dart';
-import 'package:flutter/material.dart';
 
 import '../../widgets/text_error_message.dart';
 

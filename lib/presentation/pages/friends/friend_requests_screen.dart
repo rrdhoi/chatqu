@@ -4,7 +4,6 @@ import 'package:chatqu/presentation/pages/friends/friend_request_action_button.d
 import 'package:chatqu/presentation/presentation.dart';
 import 'package:chatqu/presentation/widgets/card_row_item.dart';
 import 'package:chatqu/presentation/widgets/custom_app_bar.dart';
-import 'package:flutter/material.dart';
 
 class FriendRequestPage extends StatelessWidget {
   const FriendRequestPage({Key? key}) : super(key: key);

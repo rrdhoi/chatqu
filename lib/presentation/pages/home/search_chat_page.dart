@@ -1,7 +1,6 @@
 import 'package:chatqu/app/app.dart';
 import 'package:chatqu/domain/domain.dart';
 import 'package:chatqu/presentation/presentation.dart';
-import 'package:flutter/material.dart';
 
 import '../../widgets/custom_app_bar_search.dart';
 
