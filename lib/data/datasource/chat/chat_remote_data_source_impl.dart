@@ -69,7 +69,7 @@ class ChatRemoteDataSourceImpl extends ChatRemoteDataSource {
     try {
       final chatSnapshot = await firebaseFirestore
           .collection('chats')
-          .where('memberIds', isEqualTo: [myUserId, otherUserId]).get();
+          .where('memberIds', isEqualTo: [myUserId, otherUserId]..sort()).get();
 
       if (chatSnapshot.docs.isNotEmpty) {
         return ChatModel.fromMap(chatSnapshot.docs.first.data());
@@ -105,7 +105,7 @@ class ChatRemoteDataSourceImpl extends ChatRemoteDataSource {
 
       final chatDetails = ChatModel(
         chatId: chatId,
-        memberIds: [sender.userId!, receiver.userId!],
+        memberIds: [sender.userId!, receiver.userId!]..sort(),
         memberData: [sender, receiver],
         recentMessage: RecentMessageModel(
           messageId: messageId,
